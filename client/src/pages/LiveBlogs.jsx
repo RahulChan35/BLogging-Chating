@@ -1,8 +1,7 @@
 import React from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5100", { autoConnect: false });
-socket.connect();
+const socket = io();
 
 import SingleMessage from "../components/SingleMessage";
 
