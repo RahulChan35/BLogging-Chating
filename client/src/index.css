@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    color: #005ad4;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer {
+    height: 30px;
+    width: 100%;
+    background-color: #005ad4;
+}
+
+/* Landing Page */
+
+.landing_container{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.auth-btn-container{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.auth-btn-container > .btn {
+    text-decoration: none;
+    background-color: #005ad4;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Register Page */
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.register-container > h3{
+    color: #005ad4;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-direction: column;
+}
+
+.login-container > h3 {
+    color: #005ad4;
+    text-align: center;
+    font-size: 25px;
+}
+
+.form-container{
+    height: 400px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.input-container{
+    width: 250px;
+    height: 30px;
+    margin-top: 50px;
+}
+
+.input-container>input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #005ad4;
+}
+
+.input-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.input-container > textarea {
+    width: 200px;
+}
+
+.underline {
+    height: 5px;
+    width: 120px;
+    background-color: #005ad4;
+}
+
+
+.form-submit-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.auth-btn{
+    background-color: #005ad4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.form-submit-container > p > span {
+    color: #005ad4;
+    text-decoration: none;
+}
+
+
+/* DASHBOARD */
+
+.dashboard-header{
+    height: 70px;
+    width: 100%;
+    background-color: #005ad4;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.add-btn {
+    background-color: #005ad4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dashboard-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.profile-container{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.blogs-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.single-blog {
+    width: 800px;
+    margin: 20px;
+}
+
+.edit-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-form-container > .form > div > textarea {
+    width: 600px;
+    height: 200px;
+}
+
+.blog-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.body {
+    width: 600px;
+}
+
+.form-container{
+    width: 400px;
+}
+
+.createdAt {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.btn-container{
+    width: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.edit-blog{
+    background-color: #005ad4;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.delete-blog{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.edit-form-container > .form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.update-btn {
+    background-color: #005ad4;
+    color: white;
+    padding: 5px;
+    border-radius:5px;
+}
+
+/* LIVE CHAT */
+.chat-container {
+    margin-top: 10px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.messages-container {
+    width: 700px;
+    height: 600px;
+    border-radius:5px;
+    border: 1px solid black;
+}
+
+.single-message {
+    margin: 20px;
+}
+
+.single-message > span {
+    background-color: silver;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.message-input-container {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.message-input-container > input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.message-input-container > button {
+    background-color: #005ad4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.messages-container {
+    overflow: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar:horizontal {
+    display: none;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #005ad4;
+    border-radius: 5px;
+}
