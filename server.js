@@ -35,7 +35,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 if (process.env.ENVIRONMENT === "DEVELOPMENT") {
   app.use(morgan("dev"));
 }
-app.use(express.static(path.resolve(__dirname, "./oublic")));
+app.use(express.static(path.resolve(__dirname, "./public")));
 app.use(cors());
 app.use(cookieParser());
 app.use(express.json());
